@@ -40,6 +40,9 @@ public class ExceldataDriven {
 	    	   k++;
 	       }
 	       System.out.println(column);
+	       System.out.println(ce.toString());
+	       System.out.println(ce.hashCode());
+	       System.out.println(((Cell) ce).getStringCellValue());
 			}
 		}
       
