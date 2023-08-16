@@ -40,6 +40,8 @@ public class ExceldataDriven {
 	    	   k++;
 	       }
 	       System.out.println(column);
+	       System.out.println(ce.getClass());
+	       System.out.println(ce.toString());
 			}
 		}
       
